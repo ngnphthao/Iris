@@ -21,3 +21,5 @@ print(clf.score(X_test, y_test))
 
 print("Scroring model to pickle file")
 pickle.dump(clf,open("iris_model.pkl", 'wb'))
+
+st.write(X_train)
